@@ -124,7 +124,7 @@ export default {
 }
 
 .addMemoBtn {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .deleteMemoBtn {
