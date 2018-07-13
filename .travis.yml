@@ -11,4 +11,4 @@ install:
 
 # よう書き換え
 after_success:
-  - firebase deploy --token $FIREBASE_TOKEN  
+  - firebase deploy --token 1/WOpbt3Nl78mK0aImuoNZKbiANEQffljDWn3Li0yy3aQ
