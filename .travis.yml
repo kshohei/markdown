@@ -1,7 +1,7 @@
 language: node_js
 
 node_js:
-  - "5.10.0"
+  - "9.3.0"
 
 script:
   - echo "Deploy"
@@ -11,8 +11,4 @@ install:
 
 
 after_success:
-  # - firebase deploy --token "1/bIrEVG9r435PtbnnCDK4Tc8J9Rg-DZj5YGKcOtAEW2M"
-  deploy:
-  provider: firebase
-  token:
-    secure: "1/bIrEVG9r435PtbnnCDK4Tc8J9Rg-DZj5YGKcOtAEW2M"
+  - firebase deploy --token "1/bIrEVG9r435PtbnnCDK4Tc8J9Rg-DZj5YGKcOtAEW2M"
