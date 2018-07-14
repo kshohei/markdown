@@ -11,4 +11,5 @@ install:
 
 
 after_success:
+  -  firebase use master
   - firebase deploy --token "1/bIrEVG9r435PtbnnCDK4Tc8J9Rg-DZj5YGKcOtAEW2M"
