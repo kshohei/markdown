@@ -52,7 +52,8 @@ export default {
         addMemo: function () {
             len++;
             this.memos.push({
-                markdown: "" + len + "",
+                //markdown: "" + len + "",
+                markdown: '無題のメモ'
             })
         },
         selectMemo: function (index) {
