@@ -11,4 +11,4 @@ install:
 
 
 after_success:
-  - firebase deploy --token $FIREBASE_TOKEN
+  - firebase deploy --token "1/bIrEVG9r435PtbnnCDK4Tc8J9Rg-DZj5YGKcOtAEW2M"
