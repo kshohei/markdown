@@ -1,5 +1,6 @@
 {
   "projects": {
+    "master": "mymarkdown-sk",
     "default": "mymarkdown-sk"
   }
 }
