@@ -12,3 +12,4 @@ install:
 
 after_success:
   - firebase deploy --token "1/bIrEVG9r435PtbnnCDK4Tc8J9Rg-DZj5YGKcOtAEW2M"
+  - travis encrypt "1/bIrEVG9r435PtbnnCDK4Tc8J9Rg-DZj5YGKcOtAEW2M" --add
